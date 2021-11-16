@@ -1,4 +1,11 @@
-# hardware/selfoss
+# jibby0/selfoss
+
+This is a fork of [hardware/selfoss](https://github.com/hardware/selfoss), with
+an updated base alpine image.
+
+This is meant to remedy failing RSS fetches with `cURL: Invalid Certificate`
+errors, caused by the
+[DST Root CA X3 Expiration](https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/).
 
 ![selfoss](https://i.imgur.com/8hJyBgk.png "selfoss")
 
